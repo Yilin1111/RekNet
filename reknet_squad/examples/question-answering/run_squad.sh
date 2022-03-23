@@ -1,0 +1,22 @@
+export CUDA_VISIBLE_DEVICES=0,1
+python run_squad.py \
+  --model_type albert \
+  --model_name_or_path albert-base-v2 \
+  --do_train \
+  --do_eval \
+  --overwrite_output \
+  --do_lower_case \
+  --train_file ../../squad_data/train-v1.1.json \
+  --predict_file ../../squad_data/dev-v1.1.json \
+  --ref_train_file ../../squad_data/predicted_train-v1.1.json \
+  --ref_predict_file ../../squad_data/predicted_dev-v1.1.json \
+  --per_gpu_train_batch_size 12 \
+  --per_gpu_eval_batch_size 12 \
+  --learning_rate 3e-5 \
+  --num_train_epochs 2.0 \
+  --max_seq_length 512 \
+  --warmup_steps=814 \
+  --doc_stride 128 \
+  --eval_all_checkpoints \
+  --save_steps 2500 \
+  --output_dir albert_base_squad1.1_lr3e5_ep2_wp814/

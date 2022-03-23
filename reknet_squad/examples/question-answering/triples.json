@@ -1,0 +1,120 @@
+{
+    "qas_id": "56d9895ddc89441400fdb50e",
+    "question": "The name of the NFL championship game is?",
+    "reference": "Super Bowl 50",
+    "knowledge_list": [
+      "related||bowl||game||0.3",
+      "isa||super_bowl||championship||1.0",
+      "related||super_bowl||nfl||1.0"
+    ],
+    "answer": "Super Bowl"
+},
+{
+    "qas_id": "56d9bf70dc89441400fdb77b",
+    "question": "What famous July Fourth holiday movie did Fox pay to advertise a sequel of during the Super Bowl?",
+    "reference": "Deadpool, X-Men: Apocalypse, Independence Day: Resurgence",
+    "knowledge_list": [
+      "related||independence||fourth||0.961",
+      "related||holiday||day||1.0",
+      "related||independence||holiday||0.105",
+      "related||independence||july||1.297",
+      "related||independence||july_fourth||0.591",
+      "related||independence_day||holiday||1.0",
+      "isa||x||movie||1.0"
+    ],
+    "answer": "Independence Day"
+	20th Century Fox, Lionsgate, Paramount Pictures, Universal Studios and Walt Disney Studios paid for movie trailers to be aired during the Super Bowl. Fox paid for Deadpool, X-Men: Apocalypse, Independence Day: Resurgence and Eddie the Eagle, Lionsgate paid for Gods of Egypt, Paramount paid for Teenage Mutant Ninja Turtles: Out of the Shadows and 10 Cloverfield Lane, Universal paid for The Secret Life of Pets and the debut trailer for Jason Bourne and Disney paid for Captain America: Civil War, The Jungle Book and Alice Through the Looking Glass.
+},
+{
+    "qas_id": "56d724ea0d65d214001983c8",
+    "question": "What British TV network will carry the Super Bowl?",
+    "reference": "BBC Radio 5 Live",
+    "knowledge_list": [
+      "related||bbc||british||1.0",
+      "related||live||tv||0.103",
+      "antonym||radio||tv||0.163"
+    ],
+    "answer": "BBC"
+},
+{
+    "qas_id": "56de4a474396321400ee2786",
+    "question": "Where are Jersey and Guernsey",
+    "reference": "Channel Islands",
+    "knowledge_list": [
+      "related||channel_islands||guernsey||1.0",
+      "related||guernsey||channel_islands||1.0",
+      "related||channel_islands||jersey||1.0",
+      "related||jersey||channel_islands||1.0"
+    ],
+    "answer": "Channel Islands"
+},
+{
+    "qas_id": "56e0b94b7aa994140058e6bb",
+    "question": "What does AC stand for?",
+    "reference": "alternating current",
+    "knowledge_list": [
+      "related||current||ac||0.199",
+      "related||ac||alternating_current||1.0"
+    ],
+    "answer": "alternating current"
+},
+{
+    "qas_id": "56e120a1e3433e1400422c38",
+    "question": "What subatomic particle did Tesla deny the existence of?",
+    "reference": "an electron",
+    "knowledge_list": [
+      "related||electron||subatomic_particle||1.0",
+      "related||subatomic_particle||electron||1.0",
+      "situation||electron||particle||1.0",
+      "related||subatomic||electron||1.0"
+    ],
+    "answer": "electron"
+	"Tesla exhibited a pre-atomic understanding of physics in his writings; he disagreed with the theory of atoms being composed of smaller subatomic particles, stating there was no such thing as an electron creating an electric charge (he believed that if electrons existed at all, they were some fourth state of matter or \"sub-atom\" that could only exist in an experimental vacuum and that they had nothing to do with electricity).:249 Tesla believed that atoms are immutable\u2014they could not change state or be split in any way. He was a believer in the 19th century concept of an all pervasive \"ether\" that transmitted electrical energy.
+},
+{
+    "qas_id": "56e16182e3433e1400422e28",
+    "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+    "reference": "Computational complexity theory",
+    "knowledge_list": [
+      "related||theoretical||theory||2.0",
+      "situation||complexity_theory||computer_science||1.0",
+      "isa||complexity||difficulty||1.0",
+      "related||theory||theoretical||1.0",
+      "related||theory||science||2.533",
+      "related||theory||class||1.0"
+    ],
+    "answer": "Computational complexity theory"
+},
+ {
+    "qas_id": "56e200e4cd28a01900c67c16",
+    "question": "What theoretical device is attributed to Alan Turing?",
+    "reference": "Turing machines",
+    "knowledge_list": [
+      "related||machine||device||1.902",
+      "related||alan_turing||turing_machine||0.5"
+    ],
+    "answer": "Turing machines"
+},
+{
+    "qas_id": "56e7477700c9c71400d76f26",
+    "question": "What can a teacher use to help students learn?",
+    "reference": "a lesson plan",
+    "knowledge_list": [
+      "related||lesson||learn||1.0",
+      "related||lesson_plan||teacher||1.0",
+      "related||lesson||student||1.0",
+      "related||teacher||lesson||1.0",
+      "related||learn||lesson||0.416"
+    ],
+    "answer": "lesson plan"
+},
+{
+    "qas_id": "56f881e3a6d7ea1400e176f3",
+    "question": "What composer used Luther's hymns in his works?",
+    "reference": "Johann Sebastian Bach",
+    "knowledge_list": [
+      "related||bach||composer||1.0",
+      "isa||johann_sebastian_bach||composer||1.0"
+    ],
+    "answer": "Johann Sebastian Bach"
+},
